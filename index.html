@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holdinfo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="logopart">
+        <img class="logo_img" src="logo.png" alt="logo">
+        <!-- <div class="logo">HODLINFO<span>.com</span> </div> -->
+        <div class="logo_down">
+          Powered By <span>Finstreet</span>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="btn">
+          INR
+          <i class="fa-solid fa-sort-down"></i>
+        </div>
+        <div class="btn">
+          BTC
+          <i class="fa-solid fa-sort-down"></i>
+        </div>
+      </div>
+      <div class="telegram">
+        <div class="counter">58</div>
+        <div class="btn">
+          <i class="fa-solid fa-paper-plane"></i> &nbsp;
+          Connect Telegram
+        </div>
+        <div class="toggle">
+          <div class="toggle_btn"></div>
+        </div>
+      </div>
+    </div>
+    <div class="img">
+      <img src="cryptonews.png" alt="banner">
+    </div>
+    <div class="list" id="list">
+      <ul class="list_head">
+        <li class="flex_small">#</li>
+        <li>name</li>
+        <li>Last</li>
+        <li class="flex_threebytwo">Buy / Sell Price</li>
+        <li>volume</li>
+        <li class="flex_small">base_unit</li>
+      </ul>
+      <!-- <ul class="list_item">
+        <li class="flex_small">1</li>
+        <li>BTC/INR</li>
+        <li>$ 2,587,560</li>
+        <li>$ 2,587,560 / $ 2,590,518</li>
+        <li>286.1729</li>
+        <li class="flex_small">btc</li>
+      </ul> -->
+    </div>
+  </div>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
